@@ -16,10 +16,10 @@ void sendMessage(char (*message)[]) {
   char data[200];
 
   //INSERT HERE YOUR BOT KEY
-  char token[200] = "BOT TOKEN";
+  char token[200] = "6956456080:AAFeZcYROYNArz5AluUSdl5oSqaM1p5yta8";
 
   //INSERT HERE YOUR USER ID
-  int user_id = 1111111;
+  int user_id = 6193375496;
 
   snprintf(url,600,"https://api.telegram.org/bot%s/sendMessage",token);
   snprintf(data,300,"chat_id=%d&text=%s",user_id,*message);
